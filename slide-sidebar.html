@@ -18,7 +18,13 @@
   <!-- Side Menu Bar -->
   <div id="sidebar" class="sidebar bg-secondary">
     <!-- close button -->
-    <div class="btn btn-primary" onclick="closeNav()">
+    <div class="btn btn-primary" onclick="closeNav()"
+      id="closeSidebarBtn"  
+      data-bs-toggle="collapse"
+      href="#openSidebarBtn"
+      role="button"
+      aria-expand="false"
+      aria-controls="openSidebarBtn">
       設定を閉じる
     </div>
     <div class="form-group">
@@ -42,7 +48,13 @@
   <div id="main">
     <div class="navbar">
       <div class="container-fluid bg-secondary">
-        <button class="btn btn-primary" onclick="openNav()">
+        <button class="btn btn-primary collapse show" onclick="openNav()"
+          id="openSidebarBtn"  
+          data-bs-toggle="collapse"
+          href="#openSidebarBtn"
+          role="button"
+          aria-expand="false"
+          aria-controls="openSidebarBtn">
           設定を開く
         </button>
         <h2 class="bg-primary">
