@@ -1,6 +1,7 @@
 function openNav() {
-    document.getElementById("sidebar").style.width = "250px";
-    document.getElementById("main").style.marginLeft = "250px";
+    // ここのピクセル数でサイドバーの幅が決まる
+    document.getElementById("sidebar").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
 }
 
 function closeNav() {
