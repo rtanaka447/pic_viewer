@@ -21,21 +21,35 @@
       onclick="closeNav()">
       x
     </a>
-    <!-- option 1 -->
-    <a href="#">aiueo</a>
-    <!-- option 2 -->
-    <a href="#">kakikukeko</a>
-    <!-- option 3 -->
-    <a href="#">sasisuseso</a>
+    <div class="container-fluid">
+        <button type="button" style="width: 100px;">ボタン1</button>
+    </div>
+    <div class="container-fluid">
+      <button type="button" style="width: 100%;">ボタン2</button>
+    </div>
+    <div class="container-fluid">
+      <button type="button" style="width: 100%;">ボタン3</button>
+    </div>
   </div>
 
   <div id="main">
-    <button class="openbtn"
-      onclick="openNav()">
-      三 サイドバーを開く
-    </button>
-    <h2>Collapsed Sidebar</h2>
-    <p> ハンバーガーメニューバーアイコンをクリック</p>
+    <div class="navbar">
+      <div class="container-fluid bg-secondary">
+        <button class="openbtn bg-primary" onclick="openNav()">
+          三 サイドバーを開く
+        </button>
+        <h2 class="bg-primary">
+          aiueo
+        </h2>
+        <h2 class="bg-primary">
+          konnitiwa
+        </h2>
+      </div>
+    </div>
+
+    <div class="container-fluid svg-wrapper">
+      <svg id="svg-no-hyouji-ryouiki" width="100%"></svg>
+    </div>
   </div>
 
   <!-- slide side bar -->
